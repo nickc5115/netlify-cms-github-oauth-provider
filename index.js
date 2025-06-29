@@ -4,6 +4,9 @@ const callbackMiddleWareInit = require('./callback')
 const oauthProvider = process.env.OAUTH_PROVIDER || 'github'
 const loginAuthTarget = process.env.AUTH_TARGET || '_self'
 
+console.log("Starting Netlify CMS OAuth provider...");
+console.log("process.env.PORT at startup:", process.env.PORT);
+
 const config = {
   client: {
     id: process.env.OAUTH_CLIENT_ID,
