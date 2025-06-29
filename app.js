@@ -1,7 +1,7 @@
 require('dotenv').config({ silent: true })
 const express = require('express')
 const middleWarez = require('./index.js')
-const port = process.env.PORT || 3000
+const port = process.env.PORT
 
 const app = express()
 
