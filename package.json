@@ -6,7 +6,7 @@
   },
   "description": "netlify oauth github client sending token in form as netlify service itself",
   "repository": "https://github.com/vencax/netlify-cms-github-oauth-provider",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
