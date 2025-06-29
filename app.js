@@ -15,6 +15,9 @@ app.get('/callback', middleWarez.callback)
 app.get('/success', middleWarez.success)
 app.get('/', middleWarez.index)
 
+console.log("process.env.PORT:", process.env.PORT);
+console.log("PORT variable used:", port);
+
 app.listen(port, () => {
   console.log("Netlify CMS OAuth provider listening on port " + port)
 })
