@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "startdbg": "node --inspect-brk app.js"
+    "startdbg": "node --inspect-brk app.js",
+    "build": "echo 'No build step required'",
+    "dev": "node app.js"
   },
   "keywords": [
     "netlify",
