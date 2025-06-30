@@ -4,8 +4,11 @@ const callbackMiddleWareInit = require('./callback')
 const oauthProvider = process.env.OAUTH_PROVIDER || 'github'
 const loginAuthTarget = process.env.AUTH_TARGET || '_self'
 
-console.log("Starting Netlify CMS OAuth provider...");
-console.log("process.env.PORT at startup:", process.env.PORT);
+  console.log("Starting Netlify CMS OAuth provider...");
+  console.log("process.env.PORT at startup:", process.env.PORT);
+console.log("process.env.GITHUB_CLIENT_ID at startup:", process.env.GITHUB_CLIENT_ID);
+console.log("process.env.GITHUB_CLIENT_SECRET at startup:", process.env.GITHUB_CLIENT_SECRET);
+console.log("process.env.GIT_HOST at startup:", process.env.GIT_HOST);
 
 const config = {
   client: {
